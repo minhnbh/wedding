@@ -7,17 +7,18 @@ import OurStory from "./components/OurStory";
 import { Carousel } from "./components/Carousel";
 import { Attending } from "./components/Attending";
 import { OurWedding } from "./components/OurWedding";
+import { Donation } from "./components/Donation";
 
 function App() {
   return (
     <div className="page-container">
-      <Header />
       <Banner />
       <Countdown />
       <OurStory />
       <Carousel />
       <Attending />
       <OurWedding />
+      <Donation />
     </div>
   );
 }

@@ -1,4 +1,10 @@
 import Slider from "react-slick";
+import portfolio1 from "../../assets/images/portfolio/1.jpg";
+import portfolio2 from "../../assets/images/portfolio/2.jpg";
+import portfolio3 from "../../assets/images/portfolio/3.jpg";
+import portfolio4 from "../../assets/images/portfolio/4.jpg";
+import portfolio5 from "../../assets/images/portfolio/5.jpg";
+import portfolio6 from "../../assets/images/portfolio/6.jpg";
 
 export function Carousel() {
   const settings = {
@@ -8,6 +14,15 @@ export function Carousel() {
     slidesToShow: 4,
     slidesToScroll: 4,
   };
+
+  const images = [
+    portfolio1,
+    portfolio2,
+    portfolio3,
+    portfolio4,
+    portfolio5,
+    portfolio6,
+  ];
 
   return (
     <section
@@ -20,114 +35,27 @@ export function Carousel() {
           <div className="col-lg-12">
             <div className="portfolio-grids gallery-container clearfix portfolio-slide owl-carousel">
               <Slider {...settings}>
-                <div className="grid">
-                  <div className="img-holder">
-                    <a
-                      href="assets/images/portfolio/1.jpg"
-                      className="fancybox"
-                      data-fancybox-group="gall-1"
-                    >
-                      <img
-                        src="../../assets/images/portfolio/1.jpg"
-                        alt=""
-                        className="img img-responsive"
-                      />
-                      <div className="hover-content">
-                        <i className="ti-plus"></i>
-                      </div>
-                    </a>
+                {images.map((item) => (
+                  <div className="grid">
+                    <div className="img-holder">
+                      <a
+                        href="#"
+                        className="fancybox"
+                        data-fancybox-group="gall-1"
+                      >
+                        <img
+                          src={item}
+                          alt=""
+                          className="object-fit-cover"
+                          style={{ width: 400, height: 600 }}
+                        />
+                        <div className="hover-content">
+                          <i className="ti-plus"></i>
+                        </div>
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div className="grid">
-                  <div className="img-holder">
-                    <a
-                      href="assets/images/portfolio/2.jpg"
-                      className="fancybox"
-                      data-fancybox-group="gall-1"
-                    >
-                      <img
-                        src="../../assets/images/portfolio/2.jpg"
-                        alt=""
-                        className="img img-responsive"
-                      />
-                      <div className="hover-content">
-                        <i className="ti-plus"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="grid">
-                  <div className="img-holder">
-                    <a
-                      href="assets/images/portfolio/3.jpg"
-                      className="fancybox"
-                      data-fancybox-group="gall-1"
-                    >
-                      <img
-                        src="../../assets/images/portfolio/3.jpg"
-                        alt=""
-                        className="img img-responsive"
-                      />
-                      <div className="hover-content">
-                        <i className="ti-plus"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="grid">
-                  <div className="img-holder">
-                    <a
-                      href="assets/images/portfolio/4.jpg"
-                      className="fancybox"
-                      data-fancybox-group="gall-1"
-                    >
-                      <img
-                        src="../../assets/images/portfolio/4.jpg"
-                        alt=""
-                        className="img img-responsive"
-                      />
-                      <div className="hover-content">
-                        <i className="ti-plus"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="grid">
-                  <div className="img-holder">
-                    <a
-                      href="assets/images/portfolio/5.jpg"
-                      className="fancybox"
-                      data-fancybox-group="gall-1"
-                    >
-                      <img
-                        src="../../assets/images/portfolio/5.jpg"
-                        alt=""
-                        className="img img-responsive"
-                      />
-                      <div className="hover-content">
-                        <i className="ti-plus"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="grid">
-                  <div className="img-holder">
-                    <a
-                      href="assets/images/portfolio/6.jpg"
-                      className="fancybox"
-                      data-fancybox-group="gall-1"
-                    >
-                      <img
-                        src="../../assets/images/portfolio/6.jpg"
-                        alt=""
-                        className="img img-responsive"
-                      />
-                      <div className="hover-content">
-                        <i className="ti-plus"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
+                ))}
               </Slider>
             </div>
           </div>

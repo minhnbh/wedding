@@ -33,25 +33,6 @@ export default function Header() {
                   <ul className="nav navbar-nav mb-2 mb-lg-0">
                     <li className="menu-item-has-children">
                       <a href="#">Home</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a className="active" href="index.html">
-                            Wedding Home
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index-2.html">Wedding Planner</a>
-                        </li>
-                        <li>
-                          <a href="index-3.html">Announcement</a>
-                        </li>
-                        <li>
-                          <a href="index-4.html">Shop Home</a>
-                        </li>
-                        <li>
-                          <a href="index-5.html">Invitation</a>
-                        </li>
-                      </ul>
                     </li>
                     <li>
                       <a href="#story">Story</a>
@@ -64,40 +45,6 @@ export default function Header() {
                     </li>
                     <li>
                       <a href="#event">Events</a>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <a href="#">Blog</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="blog.html">Blog right sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog-left-sidebar.html">Blog left sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog-fullwidth.html">Blog fullwidth</a>
-                        </li>
-                        <li className="menu-item-has-children">
-                          <a href="#">Blog details</a>
-                          <ul className="sub-menu">
-                            <li>
-                              <a href="blog-single.html">
-                                Blog details right sidebar
-                              </a>
-                            </li>
-                            <li>
-                              <a href="blog-single-left-sidebar.html">
-                                Blog details left sidebar
-                              </a>
-                            </li>
-                            <li>
-                              <a href="blog-single-fullwidth.html">
-                                Blog details fullwidth
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
                     </li>
                   </ul>
                 </div>
