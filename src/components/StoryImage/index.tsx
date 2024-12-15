@@ -24,7 +24,7 @@ export function StoryImage({ imgSrc, idx, className }: Props) {
       <img
         src={imgSrc}
         alt=""
-        className="img img-responsive"
+        className="img img-responsive object-fit-cover"
         width={350}
         height={450}
       />

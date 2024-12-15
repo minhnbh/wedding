@@ -1,6 +1,6 @@
-import crImg from "../../assets/images/slider/st1.jpg";
-import cdCrImg from "../../assets/images/slider/st2.jpg";
-import cdImg from "../../assets/images/slider/st3.jpg";
+import crImg from "../../assets/images/slider/cr.jpg";
+import cdCrImg from "../../assets/images/slider/cdcr.jpg";
+import cdImg from "../../assets/images/slider/cd.jpg";
 
 export default function Banner() {
   return (
@@ -10,7 +10,7 @@ export default function Banner() {
           <div className="col col-xl-3 col-lg-3 col-12">
             <div className="hero-wrap">
               <div className="wpo-hero-text">
-                <h3>Hoang Minh</h3>
+                <h3>Xuan Thu</h3>
                 <div className="social">
                   <ul>
                     <li>
@@ -32,7 +32,7 @@ export default function Banner() {
                 </div>
               </div>
               <div className="wpo-hero-img floating-item">
-                <img src={crImg} alt="" width={350} height={450} />
+                <img src={cdImg} alt="" width={350} height={450} />
               </div>
             </div>
           </div>
@@ -46,10 +46,10 @@ export default function Banner() {
           <div className="col col-xl-3 col-lg-3 col-12">
             <div className="hero-wrap">
               <div className="wpo-hero-img floating-item">
-                <img src={cdImg} alt="" width={350} height={450} />
+                <img src={crImg} alt="" width={350} height={450} />
               </div>
               <div className="wpo-hero-text">
-                <h3>Xuan Thu</h3>
+                <h3>Hoang Minh</h3>
                 <div className="social">
                   <ul>
                     <li>

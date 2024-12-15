@@ -1,8 +1,8 @@
 import { SectionTitle } from "../SectionTitle";
 import { StoryImage } from "../StoryImage";
-import story1 from "../../assets/images/story/1.jpg";
-import story2 from "../../assets/images/story/2.jpg";
-import story3 from "../../assets/images/story/3.jpg";
+import story1 from "../../assets/images/story/howwemet.jpg";
+import story2 from "../../assets/images/story/proposed.png";
+import story3 from "../../assets/images/story/engagement.jpg";
 
 export default function OurStory() {
   return (
@@ -44,7 +44,7 @@ export default function OurStory() {
                   </span>
                   <div className="story-text right-align-text">
                     <span className="date">02 Jul, 2022</span>
-                    <h3>He proposed, I said Yes</h3>
+                    <h3>Minh proposed, Thu said Yes</h3>
                     <p>
                       Consectetur adipiscing elit. Fringilla at risus orci,
                       tempus facilisi sed. Enim tortor, faucibus netus orci

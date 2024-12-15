@@ -32,22 +32,22 @@ const CountdownTimer = ({ destinationDate }: { destinationDate: string }) => {
     <div id="clock">
       <div className="box">
         <div>
-          <div className="time">{timeLeft.days}</div> <span>Days</span>{" "}
+          <div className="time">{timeLeft.days}</div> <span>Days</span>
         </div>
       </div>
       <div className="box">
         <div>
-          <div className="time">{timeLeft.hours}</div> <span>Hours</span>{" "}
+          <div className="time">{timeLeft.hours}</div> <span>Hours</span>
         </div>
       </div>
       <div className="box">
         <div>
-          <div className="time">{timeLeft.minutes}</div> <span>Mins</span>{" "}
+          <div className="time">{timeLeft.minutes}</div> <span>Mins</span>
         </div>
       </div>
       <div className="box">
         <div>
-          <div className="time">{timeLeft.seconds}</div> <span>Secs</span>{" "}
+          <div className="time">{timeLeft.seconds}</div> <span>Secs</span>
         </div>
       </div>
     </div>

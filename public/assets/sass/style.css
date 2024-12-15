@@ -3579,6 +3579,10 @@ img {
   position: relative;
 }
 
+.wpo-hero-img img {
+  object-fit: cover;
+}
+
 @media (max-width: 991px) {
   .static-hero .hero-wrap .wpo-hero-img {
     margin: 0 auto;
@@ -5845,6 +5849,10 @@ wpo-hero-section-s2
     -o-object-fit: cover;
        object-fit: cover;
   }
+}
+
+.wpo-event-section .wpo-event-wrap .wpo-event-item .wpo-event-img img {
+  object-fit: cover;
 }
 
 .wpo-event-section .wpo-event-wrap .wpo-event-item .wpo-event-right {
@@ -12260,3 +12268,7 @@ product-design
   margin-bottom: 1.8em;
 }
 /*# sourceMappingURL=style.css.map */
+
+.object-fit-cover {
+  object-fit: cover;
+}
