@@ -4,7 +4,7 @@ const CountdownTimer = ({ destinationDate }: { destinationDate: string }) => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(destinationDate));
 
   function calculateTimeLeft(destination: string) {
-    const destinationTime = new Date(destination).getTime();
+    const destinationTime = new Date(destination.replace(/-/g, '/')).getTime();
     const currentTime = new Date().getTime();
     const difference = destinationTime - currentTime;
 
