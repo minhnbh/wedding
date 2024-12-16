@@ -46,7 +46,7 @@ export default function OurStory() {
                   <div className="story-text right-align-text">
                     <span className="date">02 Jul, 2022</span>
                     <h3>
-                      2. Minh proposed, Thư said Yes - Minh ngỏ lời, Thư gật đầu
+                      Minh proposed, Thư said Yes - Minh ngỏ lời, Thư gật đầu
                       & Chốt đơn luôn!
                     </h3>
                     <p>

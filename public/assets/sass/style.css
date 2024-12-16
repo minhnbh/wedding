@@ -5279,7 +5279,7 @@ wpo-hero-section-s2
 }
 
 .story-section .story-timeline > .row > .col:first-child {
-  padding: 0 45px 0 100px;
+  padding: 0 45px 0 60px;
 }
 
 @media (max-width: 1199px) {
@@ -5295,7 +5295,7 @@ wpo-hero-section-s2
 }
 
 .story-section .story-timeline > .row > .col:last-child {
-  padding: 0 100px 0 45px;
+  padding: 0 60px 0 45px;
 }
 
 @media (max-width: 1199px) {
