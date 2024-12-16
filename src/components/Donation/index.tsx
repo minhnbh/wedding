@@ -8,17 +8,27 @@ export function Donation() {
       <SectionTitle heading="No Cash?" subHeading="Don't worry" />
       <div className="row">
         <div className="wpo-section-title">
-          <h5>Please send us the message with your name</h5>
+          <p>Please send us the message with your name</p>
           <br />
           <img
             src={qrcode}
             alt="QR Code"
-            style={{ width: "30vw", objectFit: "contain", marginRight: 16 }}
+            style={{
+              width: "16vw",
+              objectFit: "contain",
+              marginRight: "4vw",
+              minWidth: 400,
+            }}
           />
           <img
             src={qrcode1}
             alt="QR Code"
-            style={{ width: "30vw", objectFit: "contain", marginLeft: 16 }}
+            style={{
+              width: "16vw",
+              objectFit: "contain",
+              marginLeft: "4vw",
+              minWidth: 400,
+            }}
           />
         </div>
       </div>

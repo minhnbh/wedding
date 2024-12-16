@@ -5,15 +5,34 @@ import portfolio3 from "../../assets/images/portfolio/3.jpg";
 import portfolio4 from "../../assets/images/portfolio/4.jpg";
 import portfolio5 from "../../assets/images/portfolio/5.jpg";
 import portfolio6 from "../../assets/images/portfolio/6.jpg";
+import { useScreenSize } from "../../hooks/useScreenSize";
+import { useMemo } from "react";
 
 export function Carousel() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-  };
+  const { width: screenWidth } = useScreenSize();
+
+  const slidesToShow = useMemo(() => {
+    if (screenWidth < 768) {
+      return 1;
+    }
+    if (screenWidth < 992) {
+      return 2;
+    }
+    if (screenWidth < 1200) {
+      return 3;
+    }
+    return 4;
+  }, [screenWidth]);
+  const settings = useMemo(
+    () => ({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: slidesToShow,
+      slidesToScroll: slidesToShow,
+    }),
+    [slidesToShow]
+  );
 
   const images = [
     portfolio1,
@@ -47,7 +66,12 @@ export function Carousel() {
                           src={item}
                           alt=""
                           className="object-fit-cover"
-                          style={{ width: 400, height: 600 }}
+                          style={{
+                            minWidth: 400,
+                            minHeight: 400,
+                            width: "25vw",
+                            height: "25vw",
+                          }}
                         />
                         <div className="hover-content">
                           <i className="ti-plus"></i>
