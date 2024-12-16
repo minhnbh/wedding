@@ -12,6 +12,7 @@ import { Donation } from "./components/Donation";
 function App() {
   return (
     <div className="page-container">
+      <Header />
       <Banner />
       <Countdown />
       <OurStory />

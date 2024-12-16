@@ -15,13 +15,7 @@ export default function Header() {
                   </button>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-6 col-6">
-                <div className="navbar-header">
-                  <a className="navbar-brand logo" href="index.html">
-                    N<span>o</span>zze
-                  </a>
-                </div>
-              </div>
+              <div className="col-lg-2 col-md-6 col-6"></div>
               <div className="col-lg-8 col-md-1 col-1">
                 <div
                   id="navbar"
@@ -49,31 +43,7 @@ export default function Header() {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-2 col-2">
-                <div className="header-right">
-                  <div className="header-search-form-wrapper">
-                    <div className="cart-search-contact">
-                      <button className="search-toggle-btn">
-                        <i className="fi flaticon-search"></i>
-                      </button>
-                      <div className="header-search-form">
-                        <form>
-                          <div>
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Search here..."
-                            />
-                            <button type="submit">
-                              <i className="fi flaticon-search"></i>
-                            </button>
-                          </div>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <div className="col-lg-2 col-md-2 col-2"></div>
             </div>
           </div>
         </nav>
