@@ -28,7 +28,11 @@ export function OurWedding() {
                 <h2>Champa Island Nha Trang - Resort Hotel & Spa</h2>
                 <ul>
                   <li>Sunday, 05 Jan. 2025 06:00 PM – 10:00 PM</li>
-                  <li>304 2/4, Vĩnh Phước, Nha Trang, Khánh Hòa</li>
+                  <li>
+                    304 2/4, Vĩnh Phước
+                    <br />
+                    Nha Trang, Khánh Hòa
+                  </li>
                   <li>0258 3827 827</li>
                   <li>
                     <a
@@ -54,7 +58,9 @@ export function OurWedding() {
                 <ul>
                   <li>Saturday, 11 Jan. 2025 6:00 PM – 10:00 PM</li>
                   <li>
-                    202 Đ. Hoàng Văn Thụ, Phường 9, Phú Nhuận, Hồ Chí Minh
+                    202 Đ. Hoàng Văn Thụ, Phường 9
+                    <br />
+                    Phú Nhuận, Hồ Chí Minh
                   </li>
                   <li>0965 671 688</li>
                   <li>

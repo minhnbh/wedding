@@ -4091,21 +4091,21 @@ wpo-hero-section-s2
   }
 }
 
-.wpo-hero-style-3 .wpo-wedding-time #clock > div.box {
+.wpo-wedding-time #clock > div.box {
   width: 130px;
   float: left;
   display: table;
 }
 
 @media (max-width: 1199px) {
-  .wpo-hero-style-3 .wpo-wedding-time #clock > div.box {
+  .wpo-wedding-time #clock > div.box {
     width: 80px;
     height: 80px;
   }
 }
 
 @media (max-width: 480px) {
-  .wpo-hero-style-3 .wpo-wedding-time #clock > div.box {
+  .wpo-wedding-time #clock > div.box {
     width: 50px;
     height: 50px;
   }
