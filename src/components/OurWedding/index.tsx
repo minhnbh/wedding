@@ -32,8 +32,10 @@ export function OurWedding() {
                   <li>0258 3827 827</li>
                   <li>
                     <a
+                      target="_blank"
                       className="popup-gmaps"
-                      href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.768287659876!2d109.18945347585941!3d12.263953787990191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3170678bc89ad369%3A0x7c16b00c1dcbfb3f!2sChampa%20Island%20Nha%20Trang%20-%20Resort%20Hotel%20%26%20Spa!5e0!3m2!1svi!2s!4v1734200329437!5m2!1svi!2s"
+                      href="https://maps.app.goo.gl/mxvoj2s1ZiUvo5ZS7"
+                      rel="noreferrer"
                     >
                       See Location
                     </a>
@@ -57,8 +59,10 @@ export function OurWedding() {
                   <li>0965 671 688</li>
                   <li>
                     <a
+                      target="_blank"
                       className="popup-gmaps"
-                      href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1347387048063!2d106.66827307584121!3d10.80099088934933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752928b68fbc3f%3A0xc58bea5686708420!2zVHJ1bmcgdMOibSBo4buZaSBuZ2jhu4sgLSB0aeG7h2MgY8aw4bubaSBQYXZpbGxvbiBUw6JuIFPGoW4gTmjhuqV0!5e0!3m2!1svi!2s!4v1734200517109!5m2!1svi!2s"
+                      href="https://maps.app.goo.gl/cnqiomsNWwr3wsgd8"
+                      rel="noreferrer"
                     >
                       See Location
                     </a>

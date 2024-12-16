@@ -5856,7 +5856,7 @@ wpo-hero-section-s2
 }
 
 .wpo-event-section .wpo-event-wrap .wpo-event-item .wpo-event-right {
-  padding: 40px 100px;
+  padding: 40px 40px;
   text-align: center;
   padding-bottom: 15px;
   position: absolute;
@@ -5907,7 +5907,7 @@ wpo-hero-section-s2
 }
 
 .wpo-event-section .wpo-event-wrap .wpo-event-item .wpo-event-right .wpo-event-text {
-  max-width: 245px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -5958,7 +5958,7 @@ wpo-hero-section-s2
 }
 
 .wpo-event-section .wpo-event-wrap .wpo-event-item .wpo-event-right .wpo-event-text ul li:first-child {
-  max-width: 200px;
+  /* max-width: 200px; */
   margin: 0 auto;
   margin-bottom: 15px;
 }

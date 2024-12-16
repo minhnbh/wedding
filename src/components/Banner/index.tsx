@@ -14,17 +14,12 @@ export default function Banner() {
                 <div className="social">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/nguyen.thu.9889" target="_blank" rel="noreferrer">
                         <i className="fi flaticon-facebook-app-symbol"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fi flaticon-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/xant_xant" target="_blank" rel="noreferrer">
                         <i className="fi flaticon-instagram-1"></i>
                       </a>
                     </li>
@@ -53,17 +48,12 @@ export default function Banner() {
                 <div className="social">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/nguyen.minh.775185" target="_blank" rel="noreferrer">
                         <i className="fi flaticon-facebook-app-symbol"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fi flaticon-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/minhnbh/" target="_blank" rel="noreferrer">
                         <i className="fi flaticon-instagram-1"></i>
                       </a>
                     </li>
